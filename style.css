@@ -1,0 +1,135 @@
+.PageHeads {
+  vertical-align: center;
+}
+body {
+  color: #555;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* class selector */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(to right, #d415ae, #2f2f91);
+  height: 150px;
+  line-height: 150px;
+}
+
+header a{
+  color: rgb(209, 213, 240);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* id selector */
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li{
+  display: inline;
+  padding-left: 20px;
+}
+
+/* footer */
+footer {
+  background: linear-gradient(to left, #2d4b68, #6e1e32);
+  position: absolute;
+  width: 100%;
+  font: bold 16px sans-serif; 
+/* "font:" takes care of font-weight, font-size and font-family */
+  padding: 55px 50px;
+}
+
+footer .footer-left{
+  width: 40%;
+}
+
+footer .footer-left, footer .footer-right{
+  display: inline-block;
+  vertical-align: center;
+}
+
+footer .footer-links {
+  color: white;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+footer .footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .footer-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(190, 190, 190);
+}
+
+footer .footer-right {
+  width: 35%;
+}
+
+footer .footer-right p{
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 0;
+}
+
+footer .footer-right h4{
+  color: rgb(190, 190, 190);
+  font-size: 14px;
+}
+
+/* removes list styling */
+ul {
+  list-style-type: circle bold;
+  margin: 15;
+  padding: 0;
+}
+
+/* increases space between list items */
+li {
+  padding: 3;
+}
+
+/* Each pages top text centering */
+.PageHeadings {
+  font-size: 3.5em;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Page-Content {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+label {
+  margin-right: 5pt;
+  margin-bottom: 10pt;
+}
+
+input {
+  margin-right: 5pt;
+  margin-bottom: 10pt;
+}
